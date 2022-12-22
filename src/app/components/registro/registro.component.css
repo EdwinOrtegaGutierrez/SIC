@@ -1,0 +1,25 @@
+.datos{
+    width: 800px;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #06261cb2;
+    text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+    .datos{
+        width: 300px;
+        padding: 40px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #06261cb2;
+        text-align: center;
+    }   
+}

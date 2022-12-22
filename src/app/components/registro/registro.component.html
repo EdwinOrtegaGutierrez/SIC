@@ -1,0 +1,27 @@
+<body class="bg-dark text-white">
+    <app-navbar-r></app-navbar-r>
+    <video src="/assets/Gente.mp4" autoplay="autoplay" loop="loop" id="video_background" preload="auto">
+        <source src="/url/tuvideo.mp4" type="video/mp4"/>
+    </video>
+    <form action="" class="datos text-center">
+        <h1 class="h1">REGISTRO</h1>
+        <hr>
+        <input type="text" class="form-control form-control-lg text-center mb-3" id="nombre" placeholder="Nombre(s)">
+        <input type="text" class="form-control form-control-lg text-center mb-3" id="apellidos" placeholder="Apellido(s)">
+        <input type="number" class="form-control form-control-lg text-center mb-3" id="edad" placeholder="Edad">
+        
+        <select class="form-select form-select-lg text-center mb-3" aria-label=".form-select-lg example">
+            <option selected>Tipo de usuario</option>
+            <option value="1">Estudiante</option>
+            <option value="2">Academico</option>
+            <option value="3">Administrativo</option>
+        </select>
+
+        <div class="mb-3">
+            <input type="text" class="form-control form-control-lg text-center" id="admin" placeholder="Código De Administrador">
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-success">Aceptar</button>
+        </div>            
+    </form>
+</body>    

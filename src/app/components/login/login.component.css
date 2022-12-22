@@ -1,0 +1,40 @@
+.card{
+    width: 36%; 
+    margin-left: 33%;
+}
+
+/*MEDIDA DE iPHONE 12 PRO*/
+@media screen and (max-width: 390px){
+    .card{
+        width: auto; 
+        margin-left: auto;
+        height: 82%;
+    }
+    .camara{
+        position: absolute;
+        left: -5%;
+    }
+}
+
+
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    overflow: hidden;
+    }
+    #video_pattern {
+    background:#fff;
+    position: fixed;
+    opacity: 0.8;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    }

@@ -1,0 +1,22 @@
+<body class="bg-dark text-white">
+    <video autoplay="autoplay" loop="loop" id="video_background" preload="auto">
+        <source src="/assets/Edificio.mp4" type="video/mp4"/>
+    </video>
+    
+    <app-navbar></app-navbar>
+    <div class="card bg-success text-white bg-opacity-75">
+        <div class="card-header text-center">
+            <h4 style="text-transform:uppercase;">Ponga su rostro sobre la camara</h4>
+        </div>
+        
+        <div class="card-body">
+            <webcam class="camara"></webcam>
+        </div>
+        
+        <div class="card-footer">
+            <span class="card-text">Acceso Autorizado</span>
+            <hr>
+            <span class="card-text">Acceso Denegado</span>
+        </div>
+    </div>
+</body>

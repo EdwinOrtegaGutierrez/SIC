@@ -1,0 +1,66 @@
+*{
+    color: black;
+    margin: auto;
+    text-align: center;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(11, 85, 85);
+} 
+.rectangulo{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    width: 50%;
+    margin-top: 800 px;
+    text-align: center;
+    font-size: 30px;
+    /*Puedes hacer hidden a esto y se oculta
+    una vez se verifica si el acceso es valido
+    o no*/
+}
+.spinner-border{
+    background-color: transparent;
+}
+#liveAlertBtn{
+    margin-top: 20px;
+    background-color: white;
+    border: 3px solid;
+    margin-bottom: 20px;
+}
+#liveAlertPlaceholder{
+    margin-top: 7px;
+}
+.card{
+background-color: transparent;
+border-color: transparent;
+/*border: 3px solid black; Este 
+seria para ponerle margen a la 
+cartita*/
+}
+.card-body, .card-footer{
+margin: 15px;
+}
+h4{
+    background-color: white;
+    border-radius: 7%;
+    border: 3px solid black;
+}
+p{
+    background-color: white;
+    border-radius: 7%;
+    border: 3px solid black;
+    width: 300px;
+    margin-top: 7px;
+    font-size:large;
+}
+
+/*Estos estan en hidden, depende 
+de si la verificacion es correcta 
+le quitas el hidden a uno u otro*/
+.accesoA p{
+
+    background-color: green;
+}
+.accesoB p{
+    background-color: red;
+}
